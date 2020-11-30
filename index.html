@@ -1,0 +1,136 @@
+<DOCTYPE html>
+    <html>
+        <meta http-equiv="Content-Type" content="text/html" charset='UTF-8'>
+        <head>
+            <link rel="stylesheet" href="styles.css">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">  
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">  
+        </head>
+    
+        <body class="landingpage-bg">
+
+                <nav role="menubar"class="top-nav">
+                    <ul>
+                        <li role="menuitem"><a class="menulink" href="index.html">Maya Lundell</li></a>
+                        <li class="menulink" id="spacer">|</li>
+                        <li role="menuitem"><a class="menulink" href="#about-me" role="link">about</a></li>
+                        <li role="menuitem"><a class="menulink" href="#projects" role="link">projects</a></li>
+                        <li role="menuitem"><a class="menulink" href="MayaLundell_Resume.pdf" target="_blank" role="link">resume</a></li>
+                    </ul>
+                </nav>
+                <div class="body-content">
+                    <div id="contact-info" class="contact"> 
+                        <a href = "javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <p class="pp" id="contact-intro">want to get in touch? <br> find me here.</p>
+                        <div class="contact-icon-wrapper">
+
+                            <button id="email-icon" onclick="emailAppear()" role="button">
+                                <div class="icon" id="email-icon"><i class="material-icons" role="button" alt="get email address button">email</i></div>
+                            </button>    
+
+                            <div id="email-address" class="hidden">
+                                mglundell00@gmail.com
+                            </div>
+
+                            <div class="contact-icons"><a href="https://www.linkedin.com/in/maya-lundell-8338741a3" target="_blank" role="link" alt="linkedin link"> <i class="fa">&#xf08c;</i></a></div>
+
+                        </div>
+                    </div>  
+
+                    <button class="openbtn" onclick="openNav()" role="button">contact me</button>
+
+                    <div class="personal-info">
+                        <!-- <div class="profile-image"> -->
+                            <!-- <img id="pfp" src="pfp.png" alt="profile picture"> -->
+                        <!-- </div> -->
+
+                        <div class="name-words">
+                            <div id="name-header">
+                                <h1>hi, i'm maya.</h1>
+                            </div>
+
+                            <div><i class="material-icons" id="tea-icon" alt="cup of tea icon">emoji_food_beverage</i></div>
+            
+                            <div class="one-line"> 
+                                <p class="pp"> i'm studying computer science & psychology at northwestern university.</p>
+                            </div>
+
+                            <div class="see-more" role="button" alt="click to view more information">
+                                <div class="icon" id="seemore-icon"><a href="#about-me"><i class="material-icons">expand_more</i></a></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="main-info-container">
+
+
+                        <a name="about-me"><div class="aboutme">
+                            <h1 id="aboutmeheader"><span class="material-icons" alt="face icon">
+                                face
+                                </span> &nbsp; about me</h1>
+                            <div class="about-me-container">
+                                <img id="pfp" src="pfp.png" alt="image of Maya Lundell">
+                                <div class="pp" id="about-me-pp">
+                                    <p>
+                                        I am a sophomore at Northwestern University, where I am pursuing a BS in computer science 
+                                        and a minor in psychology. As a lover of all things <span class="emphasis">aesthetic</span>, 
+                                        I am hoping to exercise both  my programming skills and creative side with a career in 
+                                        <span class="emphasis">user experience</span> and <span class="emphasis">user interface design</span>. 
+                                    </p>
+
+                                    <p>
+                                        I’m lucky that my passion for art, logic, and the mind are able to converge into the perfect career path. 
+                                        After all, UX/UI design is nothing without a clear understanding of the way we as people see the world. 
+                                        Having spent a lot of my life working in teams, I’ve learned just how important 
+                                        <span class="emphasis">communication</span> can be. Exploring the intersection between <span class="emphasis">psychology</span> and 
+                                        <span class="emphasis">technology</span> has never been more important than today, and I wish to have 
+                                        the opportunity to create an easy, breezy, beautiful user experience.
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <a id="projects-link" href="#projects" role="link"><p class="see-projects">wanna see my projects?</div></a>
+
+                        </div></a>
+                            
+                        <a name="projects"><h1 id="proj-head"><span class="material-icons" alt="tool icon">build</span> &nbsp; projects</h1></a>
+                        <a name="projects"><div class="projects-container">
+
+                            <div class="te-container">
+                                <div id="triple-elbow-icon"><img id="projicon1" src="lp-te.jpeg" alt="the triple elbow"></div>
+
+                                <a class="projdesc1" href="tripleelbow.html">
+                                    <div class="text1" id="triple-elbow-link">the triple elbow</div>
+                                </a>   
+                            </div>
+
+
+                            <div class="gounu-container">
+                                <div id="gounu-icon"><img id="projicon2" src="lp-gnu.jpeg" alt="go u NU"></div>
+                                <div class="projdesc2">
+                                    <div class="text2" id="gounu-link">go u nu</div>
+                                </div>
+                            </div>
+                        </div></a>
+
+
+                        <div class="resume-container">
+                            <p id="resume message">don't be shy, read my resume</p>
+                            <a id="resume" href="MayaLundell_Resume.pdf" target="_blank" role="link">here :)</a>
+                        </div>
+                    </div>  
+                </div>
+    
+            <script src="portfolio.js"></script>
+        </body> 
+    
+    </html>
+</DOCTYPE>

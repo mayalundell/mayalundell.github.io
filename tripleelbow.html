@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="Content-Type" content="text/html" charset='UTF-8'>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    </head>
+
+    <body class="project-bg">
+        <nav class="top-nav">
+            <ul>
+                <li role="menuitem"><a class="menulink" href="index.html">Maya Lundell</li></a>
+                <li class="menulink" id="spacer">|</li>
+                <li role="menuitem"><a class="menulink" href="index.html#about-me"role="link">about</a></li>
+                <li role="menuitem"><a class="menulink" href="index.html#projects"role="link">projects</a></li>
+                <li role="menuitem"><a class="menulink" href="MayaLundell_Resume.pdf" target="_blank" role="link">resume</a></li>
+            </ul>
+        </nav>
+
+        <div id="contact-info" class="contact"> 
+            <a href = "javascript:void(0)" class="closebtn" onclick="closeNav()" role="button">&times;</a>
+            <p class="pp" id="contact-intro">want to get in touch? <br> find me here.</p>
+            <div class="contact-icon-wrapper">
+
+                <button id="email-icon" onclick="emailAppear()" role="button" alt="get email address button">
+                    <div class="icon" id="email-icon"><i class="material-icons">email</i></div>
+                </button>    
+
+                <button id="email-address" class="hidden" onclick="emailAppear()">
+                    mglundell00@gmail.com
+                </button>
+
+                <div class="contact-icons"><a href="https://www.linkedin.com/in/maya-lundell-8338741a3" target="_blank" role="link" alt="linkedin link"> <i class="fa">&#xf08c;</i></a></div>
+
+            </div>
+        </div>
+        <button class="openbtn" onclick="openNav()" role="button">contact me</button>
+
+        <div class="te-heading-container">
+            <div class=te-name-container>
+                <h1 id="te-heading">the triple elbow</h1>
+                <h2 id="te-subheading">a new adaptive gaming system.</h2>
+                <div class=rectangle></div>
+                <img id="te-head-img" src="te-head.jpeg" alt="spinal cord injury and video game images">
+            </div>
+        </div>
+
+        <div class="te-info-container">
+
+
+            <div class="te-pp" id="the-problem">
+                <h1>the problem.</h1>
+                <p class="pp">
+
+                    Individuals with spinal cord injuries play video games as a form of therapy, using adaptive controllers that can be activated by their shoulders,
+                    head, and facial features. However, there is an issue in existing adaptive controllers: it is difficult to keep the controllers in place, resulting in 
+                    constant disruption of gameplaying and significant effort from the therapist to keep the game running smoothly.
+
+                    The <a id="shirleyryan-link" href=https://www.sralab.org>Shirley Ryan AbilityLab</a> reached out to me and a few of my peers to design a solution to the 
+                    problem of adaptive game controller instability.
+                </p>
+            </div>
+
+            <div class="pp" id="the-process">
+                <h1>the process.</h1>
+                <p class="pp"> 
+                    After initially meeting with our client to discuss challenges in adaptive video gaming, we visited the Shirley Ryan AbilityLab to observe these 
+                    challenges ourselves. We performed background research as well in order to fully comprehend the experiences of individuals with spinal cord injuries, 
+                    as well as the various forms of therapy offered to them. We also considered existing adaptive video gaming devices, and analyzed the benefits and 
+                    drawbacks of each design. 
+                </p>
+
+                <p class="pp"> 
+                    We spent several weeks brainstorming, designing, discussing the pros and cons of each design. We met with our peers and professors for a review of our 
+                    primitive designs and consequently began to refine our top design picks. 
+                </p>
+
+            </div>
+
+            <div class="te-pp" id="the-solution">
+                <h1>the solution.</h1>
+                <p class="pp">
+                     Ultimately our final design, the Triple Elbow, consisted of a base for the therapist to place behind a wheelchair which wraps around its sides, and a channeled aluminum 
+                     post extending vertically from the base. On this post are rotationally adjustable arms that the therapist can loosen to adjust, then tighten to stabilize 
+                     when the buttons attached to the end reach their ideal placement. The buttons are held by a clamping case which the user can loosen to insert a button, and 
+                     then tighten to hold it in place. As a stand-alone device that can hold up to four adaptive gaming controls, aided by four extensive articulating arms, the Triple Elbow
+                     allows for quick adaptability between patients and gaming sessions.
+                </p>
+            </div>
+        </div>
+        <div class="te-info-container">
+            <div class="all-proj-imgs">
+                <div class="big-te-img">
+                    <img class="te-icons" id="triple-elbow-img" src="final-poster.png" alt="Triple Elbow Project full view">
+                    <div id="te-img-hide">triple elbow as demonstrated by a "patient"</div>
+                </div>
+                <div class=te-icon-desc-wrapper>     
+                    <div class="te-icon-wrapper">
+                        <img class="te-icons" class="te-icon1" src="te_icon1.png" alt="forked base with aluminum extrusion">
+                        <img class="te-icons" class="te-icon2" src="te-icon2.png" alt="video game button attachment">
+                        <img class="te-icons" class="te-icon3" src="te-icon3.png" alt="360 degree rotational joints">
+                    </div>
+                    <div class="te-icon-desc">
+                        <div class="icon-hide" id="te-icon1-hide">forked base with aluminum extrusion</div>
+                        <div class="icon-hide" id="te-icon2-hide">video game button attachment</div>
+                        <div class="icon-hide" id="te-icon3-hide">360 degree rotational joints</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="te-pp" id="the outcome">
+                <h1>the outcome.</h1>
+                <p class="pp"> 
+                    Our design was presented at Northwestern University’s Design and Communication project fair, and then taken for use at the Shirley Ryan 
+                    AbilityLab.
+                </p>
+            </div>
+    
+            <div id="full-report">
+                <p class="pp">
+                    Read the full report <a id="finalpaper-link" href="TheTripleElbow.pdf" target="_blank">here</a>.
+                </p>
+            </div>
+
+            <div class="project-partners">
+                <h2>project partners</h2>
+                <ul class="partners">
+                    <li>Ms. Jordan Huffman</li>
+                    <li>Professor Ken Gentry</li>
+                    <li>Professor Michelle Greenberg</li>
+                    <li>Frank Burke-Olson</li>
+                    <li>Reilly Hannula</li>
+                    <li>Maya Lundell</li>
+                    <li>Antony Traino</li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <script src="portfolio.js"></script>
+    </body>
+</html>
